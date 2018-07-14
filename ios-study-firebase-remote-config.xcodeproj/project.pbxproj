@@ -15,6 +15,9 @@
 		C88E13FD20F9CA1500CA04A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88E13FB20F9CA1500CA04A9 /* LaunchScreen.storyboard */; };
 		C88E140820F9CA1500CA04A9 /* ios_study_firebase_remote_configTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E140720F9CA1500CA04A9 /* ios_study_firebase_remote_configTests.swift */; };
 		C88E141320F9CA1500CA04A9 /* ios_study_firebase_remote_configUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E141220F9CA1500CA04A9 /* ios_study_firebase_remote_configUITests.swift */; };
+		C88FB20220F9D15900D947BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C88FB20120F9D15900D947BD /* GoogleService-Info.plist */; };
+		C88FB20320F9D15900D947BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C88FB20120F9D15900D947BD /* GoogleService-Info.plist */; };
+		C88FB20420F9D15900D947BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C88FB20120F9D15900D947BD /* GoogleService-Info.plist */; };
 		CC0864D6FEDBCD315802EC4B /* Pods_ios_study_firebase_remote_configTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C1E7FC96E9E127D757A0DC /* Pods_ios_study_firebase_remote_configTests.framework */; };
 		E0F2115E9E6DF1A3E7C4760E /* Pods_ios_study_firebase_remote_configUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0E487454853510DD0E09A7 /* Pods_ios_study_firebase_remote_configUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +61,7 @@
 		C88E140E20F9CA1500CA04A9 /* ios-study-firebase-remote-configUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-study-firebase-remote-configUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88E141220F9CA1500CA04A9 /* ios_study_firebase_remote_configUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_study_firebase_remote_configUITests.swift; sourceTree = "<group>"; };
 		C88E141420F9CA1500CA04A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88FB20120F9D15900D947BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		E34751069C31B8A5FA9A2E6E /* Pods-ios-study-firebase-remote-config.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-firebase-remote-config.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-firebase-remote-config/Pods-ios-study-firebase-remote-config.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +128,7 @@
 		C88E13F120F9CA1400CA04A9 /* ios-study-firebase-remote-config */ = {
 			isa = PBXGroup;
 			children = (
+				C88FB20120F9D15900D947BD /* GoogleService-Info.plist */,
 				C88E13F220F9CA1400CA04A9 /* AppDelegate.swift */,
 				C88E13F420F9CA1400CA04A9 /* ViewController.swift */,
 				C88E13F620F9CA1400CA04A9 /* Main.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C88E13FD20F9CA1500CA04A9 /* LaunchScreen.storyboard in Resources */,
+				C88FB20220F9D15900D947BD /* GoogleService-Info.plist in Resources */,
 				C88E13FA20F9CA1500CA04A9 /* Assets.xcassets in Resources */,
 				C88E13F820F9CA1400CA04A9 /* Main.storyboard in Resources */,
 			);
@@ -283,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88FB20320F9D15900D947BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88FB20420F9D15900D947BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +565,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-config/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-config";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -573,7 +584,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-config/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-config";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -590,7 +604,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-configTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-configTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -608,7 +626,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-configTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-configTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -625,7 +647,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-configUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-configUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -642,7 +668,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-configUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-configUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
