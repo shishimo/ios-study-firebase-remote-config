@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CF46F8B5ADD88D182F00BA6 /* Pods_ios_study_firebase_remote_config.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4443F48D80779CDFAE00237 /* Pods_ios_study_firebase_remote_config.framework */; };
 		C88E13F320F9CA1400CA04A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E13F220F9CA1400CA04A9 /* AppDelegate.swift */; };
 		C88E13F520F9CA1400CA04A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E13F420F9CA1400CA04A9 /* ViewController.swift */; };
 		C88E13F820F9CA1400CA04A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88E13F620F9CA1400CA04A9 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		C88E13FD20F9CA1500CA04A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88E13FB20F9CA1500CA04A9 /* LaunchScreen.storyboard */; };
 		C88E140820F9CA1500CA04A9 /* ios_study_firebase_remote_configTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E140720F9CA1500CA04A9 /* ios_study_firebase_remote_configTests.swift */; };
 		C88E141320F9CA1500CA04A9 /* ios_study_firebase_remote_configUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E141220F9CA1500CA04A9 /* ios_study_firebase_remote_configUITests.swift */; };
+		CC0864D6FEDBCD315802EC4B /* Pods_ios_study_firebase_remote_configTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C1E7FC96E9E127D757A0DC /* Pods_ios_study_firebase_remote_configTests.framework */; };
+		E0F2115E9E6DF1A3E7C4760E /* Pods_ios_study_firebase_remote_configUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0E487454853510DD0E09A7 /* Pods_ios_study_firebase_remote_configUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		396CC9904AD70E78B4F86F11 /* Pods-ios-study-firebase-remote-configTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-firebase-remote-configTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-firebase-remote-configTests/Pods-ios-study-firebase-remote-configTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A0E487454853510DD0E09A7 /* Pods_ios_study_firebase_remote_configUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_study_firebase_remote_configUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B14AEBF591477DFC72F916E /* Pods-ios-study-firebase-remote-config.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-firebase-remote-config.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-firebase-remote-config/Pods-ios-study-firebase-remote-config.debug.xcconfig"; sourceTree = "<group>"; };
+		78C1E7FC96E9E127D757A0DC /* Pods_ios_study_firebase_remote_configTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_study_firebase_remote_configTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		821FD045484E24F1CF97ACD8 /* Pods-ios-study-firebase-remote-configTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-firebase-remote-configTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-firebase-remote-configTests/Pods-ios-study-firebase-remote-configTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4443F48D80779CDFAE00237 /* Pods_ios_study_firebase_remote_config.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_study_firebase_remote_config.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46F417B343BCF0AE0C2D3E5 /* Pods-ios-study-firebase-remote-configUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-firebase-remote-configUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-firebase-remote-configUITests/Pods-ios-study-firebase-remote-configUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A627B7DBD3C5CC00BF2983F8 /* Pods-ios-study-firebase-remote-configUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-firebase-remote-configUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-firebase-remote-configUITests/Pods-ios-study-firebase-remote-configUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C88E13EF20F9CA1400CA04A9 /* ios-study-firebase-remote-config.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-study-firebase-remote-config.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88E13F220F9CA1400CA04A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C88E13F420F9CA1400CA04A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		C88E140E20F9CA1500CA04A9 /* ios-study-firebase-remote-configUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-study-firebase-remote-configUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88E141220F9CA1500CA04A9 /* ios_study_firebase_remote_configUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_study_firebase_remote_configUITests.swift; sourceTree = "<group>"; };
 		C88E141420F9CA1500CA04A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34751069C31B8A5FA9A2E6E /* Pods-ios-study-firebase-remote-config.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-firebase-remote-config.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-firebase-remote-config/Pods-ios-study-firebase-remote-config.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF46F8B5ADD88D182F00BA6 /* Pods_ios_study_firebase_remote_config.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0864D6FEDBCD315802EC4B /* Pods_ios_study_firebase_remote_configTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F2115E9E6DF1A3E7C4760E /* Pods_ios_study_firebase_remote_configUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CAB9ED41E027B0B4340D205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4443F48D80779CDFAE00237 /* Pods_ios_study_firebase_remote_config.framework */,
+				78C1E7FC96E9E127D757A0DC /* Pods_ios_study_firebase_remote_configTests.framework */,
+				3A0E487454853510DD0E09A7 /* Pods_ios_study_firebase_remote_configUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C88E13E620F9CA1300CA04A9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				C88E140620F9CA1500CA04A9 /* ios-study-firebase-remote-configTests */,
 				C88E141120F9CA1500CA04A9 /* ios-study-firebase-remote-configUITests */,
 				C88E13F020F9CA1400CA04A9 /* Products */,
+				E41442F3707B7908FE5C78A6 /* Pods */,
+				5CAB9ED41E027B0B4340D205 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = "ios-study-firebase-remote-configUITests";
 			sourceTree = "<group>";
 		};
+		E41442F3707B7908FE5C78A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B14AEBF591477DFC72F916E /* Pods-ios-study-firebase-remote-config.debug.xcconfig */,
+				E34751069C31B8A5FA9A2E6E /* Pods-ios-study-firebase-remote-config.release.xcconfig */,
+				396CC9904AD70E78B4F86F11 /* Pods-ios-study-firebase-remote-configTests.debug.xcconfig */,
+				821FD045484E24F1CF97ACD8 /* Pods-ios-study-firebase-remote-configTests.release.xcconfig */,
+				A46F417B343BCF0AE0C2D3E5 /* Pods-ios-study-firebase-remote-configUITests.debug.xcconfig */,
+				A627B7DBD3C5CC00BF2983F8 /* Pods-ios-study-firebase-remote-configUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88E141720F9CA1500CA04A9 /* Build configuration list for PBXNativeTarget "ios-study-firebase-remote-config" */;
 			buildPhases = (
+				6ED72C9B175FCC4EBCCDB8C8 /* [CP] Check Pods Manifest.lock */,
 				C88E13EB20F9CA1400CA04A9 /* Sources */,
 				C88E13EC20F9CA1400CA04A9 /* Frameworks */,
 				C88E13ED20F9CA1400CA04A9 /* Resources */,
+				63FFA02A99D3F445CAFEA859 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88E141A20F9CA1500CA04A9 /* Build configuration list for PBXNativeTarget "ios-study-firebase-remote-configTests" */;
 			buildPhases = (
+				8C0E972E6760AC44355C6914 /* [CP] Check Pods Manifest.lock */,
 				C88E13FF20F9CA1500CA04A9 /* Sources */,
 				C88E140020F9CA1500CA04A9 /* Frameworks */,
 				C88E140120F9CA1500CA04A9 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88E141D20F9CA1500CA04A9 /* Build configuration list for PBXNativeTarget "ios-study-firebase-remote-configUITests" */;
 			buildPhases = (
+				96726DB3CE18CA029C909EBC /* [CP] Check Pods Manifest.lock */,
 				C88E140A20F9CA1500CA04A9 /* Sources */,
 				C88E140B20F9CA1500CA04A9 /* Frameworks */,
 				C88E140C20F9CA1500CA04A9 /* Resources */,
@@ -250,6 +294,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63FFA02A99D3F445CAFEA859 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-study-firebase-remote-config/Pods-ios-study-firebase-remote-config-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-study-firebase-remote-config/Pods-ios-study-firebase-remote-config-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ED72C9B175FCC4EBCCDB8C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-study-firebase-remote-config-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0E972E6760AC44355C6914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-study-firebase-remote-configTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96726DB3CE18CA029C909EBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-study-firebase-remote-configUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C88E13EB20F9CA1400CA04A9 /* Sources */ = {
@@ -428,15 +551,13 @@
 		};
 		C88E141820F9CA1500CA04A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B14AEBF591477DFC72F916E /* Pods-ios-study-firebase-remote-config.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-config/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-config";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +567,13 @@
 		};
 		C88E141920F9CA1500CA04A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34751069C31B8A5FA9A2E6E /* Pods-ios-study-firebase-remote-config.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-config/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-config";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +583,14 @@
 		};
 		C88E141B20F9CA1500CA04A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 396CC9904AD70E78B4F86F11 /* Pods-ios-study-firebase-remote-configTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-configTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-configTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +601,14 @@
 		};
 		C88E141C20F9CA1500CA04A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821FD045484E24F1CF97ACD8 /* Pods-ios-study-firebase-remote-configTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-configTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-configTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +619,13 @@
 		};
 		C88E141E20F9CA1500CA04A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46F417B343BCF0AE0C2D3E5 /* Pods-ios-study-firebase-remote-configUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-configUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-configUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +636,13 @@
 		};
 		C88E141F20F9CA1500CA04A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A627B7DBD3C5CC00BF2983F8 /* Pods-ios-study-firebase-remote-configUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L33884E9QM;
 				INFOPLIST_FILE = "ios-study-firebase-remote-configUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimo.ios-study-firebase-remote-configUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
